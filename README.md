@@ -13,13 +13,13 @@ This is a simple AI-powered chatbot built using Python and the OpenAI API. It ta
 
 ### 1. Clone the Repository
 
-'''bash
+bash
 git clone https://github.com/faithchris/openai-chatbot.git
 cd openai-chatbot
 
 ### 2. Create and Activate a Virtual Environment
 
-'''bash
+bash
 python3 -m venv venv
 source venv/bin/activate
 
@@ -27,14 +27,14 @@ source venv/bin/activate
 
 After activating your virtual environment, install the required Python packages using pip:
 
-'''bash
+bash
 pip install -r requirements.txt
 
 ### 4. Add Your API Key
 
 Create a `.env` file in the root directory and add your OpenAI API key:
 
-'''env
+env
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
@@ -42,5 +42,5 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Once everything is set up, you can run the chatbot using:
 
-'''bash
+bash
 python chatt.py
